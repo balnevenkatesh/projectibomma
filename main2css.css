@@ -1,0 +1,282 @@
+
+
+
+
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.navbar{
+background-color:rgb(26, 25, 25);
+height:70px;
+width:100%;
+border: 1px solid #1f1f1f;
+
+
+
+}
+
+
+
+img{
+    height:45px;
+    width:auto ;
+    margin:12px;
+    margin-left:60px;
+}
+
+.icons{
+   float:right;
+    padding-left:30px; 
+}
+
+.button{
+  background-color: transparent;
+  color:azure;
+  border:transparent;
+  height:10px;
+  padding:30px;
+  font-size: 15px;
+
+  
+  
+}
+
+
+
+ .button-icons{
+    color:#6ac045
+ }
+
+ .search-button{
+    background-color: rgb(123, 249, 73);
+    color:azure;
+    height:40px;
+    width:5vw;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border:none;
+    margin-right: 50px;
+
+ }
+.search-button:hover{
+   background-color:rgb(4, 248, 98);
+            cursor: pointer;
+}
+
+ .search{
+    background-color: rgb(37, 37, 37);
+    height: 40px;
+    width:200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:  20px;
+    border: 1px solid #1f1f1f;
+    padding-left:40px;
+    font-size:large;
+
+
+ }
+ 
+ 
+  body{
+    background-color: rgb(14, 14, 14);
+  }
+ 
+  
+
+  h1{
+   text-align: center ;
+   color:white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:400;
+   font-size:45px;
+   margin-top:45px;
+
+
+  }
+
+  p{
+   text-align:center;
+   color:rgb(208, 206, 206);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top:38px;
+
+  }
+
+  .boxes{
+   display:flex;
+   justify-content:space-around;
+   margin-top: 60px;
+   margin-left:60px;
+   margin-right:60px;
+   margin-bottom:none;
+   position: relative;
+
+
+   
+
+
+  
+ 
+
+
+  }
+
+  .box{
+   height:240px;
+   width:160px;
+   margin:8px;
+   border-radius:6px;
+  }
+
+  .movie-name{
+   margin:3px;
+   text-align:left;
+   color:white;
+   text-indent: 5px;
+}
+
+
+.movie-year{
+   margin-top:3px;
+   color:#6ac045;
+   background-color: rgb(65, 65, 65);
+   height: 16px;
+   width:35px;
+   font-size:small;
+   text-align:center;
+   margin-left:10px;
+   
+}
+
+
+.down-search-bar{
+   height:200px;
+   width:1150px;
+   background-color:rgba(56, 53, 53, 0.205);
+   margin:60px;
+   border-radius:10px;
+   text-align:center;
+   padding:25px;
+   box-sizing: border-box;
+   border: 1px solid #1f1f1f;
+  
+}
+
+
+
+
+.search-bar-h2{
+   color:white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:650;
+   font-size:23px;
+   padding-bottom: -5px;
+   
+  
+}
+
+
+.down-search-button{
+   background-color: rgb(123, 249, 73);
+   color:azure;
+   height:40px;
+   width:8vw;
+   border-top-right-radius:20px;
+   border-bottom-right-radius:20px;
+   border:none;
+   margin-right: 50px ;
+}
+
+.down-search-button:hover{
+   background-color:rgb(4, 248, 98);
+   cursor: pointer;
+}
+
+
+.down-search{
+   background-color: rgb(37, 37, 37);
+   height: 40px;
+   width:500px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius:  20px;
+   border: 1px solid #1f1f1f;
+   margin-top:12px;
+   margin-bottom:12px;
+   font-size:large;
+   
+   
+}
+
+.down-search-bar-p{
+
+   color:rgb(202, 198, 198);
+   
+   margin:20px;
+
+   
+}
+
+.Add-ons{
+color:white;
+margin-top:60px;
+margin-left:60px;
+margin-right:60px;
+margin-bottom:none;
+
+font-size:25px;
+font-weight:400;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+.Add-ons-image{
+
+   width:180px;
+  
+}
+
+
+.wifi-icon{
+   color:#6ac045;
+}
+
+.footer{
+   background-color:rgb(22, 22, 22);
+height:70px;
+width:100%;
+margin-top:50px;
+box-sizing: border-box;
+display:flex;
+border: 1px solid #1f1f1f;
+
+
+
+}
+
+.footer-left{
+font-size:13px;
+display:flex;
+padding-left: 30px;
+
+
+
+}
+
+
+
+.footer-right{
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+   font-size:13px;
+   width:950px;
+
+   
+   
+   
+}
